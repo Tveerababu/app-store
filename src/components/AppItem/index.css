@@ -1,0 +1,28 @@
+.app-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(173, 210, 224),
+    white,
+    white
+  );
+  padding: 22px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  width: 130px;
+  height: 165px;
+}
+.app-image {
+  height: 70px;
+  border-radius: 14px;
+  box-shadow: darkgrey;
+}
+.app-name {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  text-align: center;
+}
